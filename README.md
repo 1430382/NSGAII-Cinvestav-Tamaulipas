@@ -79,6 +79,7 @@ _Instructions to run the code_
 You need to enter to src folder and if you are in a gnu/linux system based of you can use
 sh Z.sh to compile and run the code.
 
-If you want to visualize the tree results you can enter in the arboles folder inside src and run execute.sh before running the code you need to modify the path of the file arbol.py
+If you want to visualize the tree results you can enter in the arboles folder inside src and 
+run execute.sh before running the code you need to modify the path of the file arbol.py
 and modify the path inside the file arbol.py
 ```
