@@ -109,7 +109,7 @@ void updateNode(Node *n){
                            n->right->cumulativeParsimony + n->localParsimony;
   n->subTreeSize = n->left->subTreeSize + n->right->subTreeSize + 2;
 }
-*//
+*/
 void newInnerNode(Node *temp, Node *a, Node *b) {
   auto z;
   strcpy(temp->name, "");

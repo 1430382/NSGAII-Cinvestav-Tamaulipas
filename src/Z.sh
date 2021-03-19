@@ -2,12 +2,12 @@
 guion=-
 Archivo=nsgaII
 rm $Archivo
-gcc *.c -o $Archivo -lm -Wall -O3 -w
+gcc *.c -o $Archivo -lm -Wall -O3 -w -fopenmp
 echo "Enter the name of the txt example: phy/ANGI, followed by [ENTER]:"
-archivo99=droso-small1
+archivo99=ANGI
 #read archivo99
-
-./$Archivo -Input ../smallinstances/drosophyl2/$archivo99.txt -Output ../Results/libro/$archivo99/$archivo99$guion -OBJ 0
+mkdir ../Results/libro/$archivo99
+./$Archivo -Input ../instanciasestadias/$archivo99.txt -Output ../Results/libro/$archivo99/$archivo99$guion -OBJ 0
 objetivocero=obj0
 objetivouno=obj1
 objetivodos=obj2
