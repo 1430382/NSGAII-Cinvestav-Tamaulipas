@@ -2,7 +2,7 @@
 guion=-
 Archivo=nsgaII
 rm $Archivo
-gcc *.c -o $Archivo -lm -Wall -O3 -w -fopenmp
+gcc *.c -o $Archivo -lm -Wall -O3 -w #-fopenmp
 echo "Enter the name of the txt example: phy/ANGI, followed by [ENTER]:"
 archivo99=ANGI
 #read archivo99
