@@ -2,7 +2,8 @@
 #echo "Enter the name of the txt example: phy/ANGI, followed by [ENTER]:"
 echo "Arboles con biopython"
 #read archivo
-python3 /home/asura/Documents/Estadias/VALIDACION/fusion/ExperimentalSetup/src/arboles/arbol.py
+#echo $PWD
+python3 $PWD"/arbol.py"
 #echo $archivo
 #python3 test.py $archivo.txt &
 #wait
@@ -17,6 +18,7 @@ python3 /home/asura/Documents/Estadias/VALIDACION/fusion/ExperimentalSetup/src/a
 #file=$archivo.txt
 #while IFS= read line
 #do
-        
+
 #	echo "$line"
 #done <"$file"
+echo "Done!"

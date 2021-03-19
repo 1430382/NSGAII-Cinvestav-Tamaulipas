@@ -15,6 +15,5 @@ wait
 file=$archivo.txt
 while IFS= read line
 do
-        
 	echo "$line"
 done <"$file"

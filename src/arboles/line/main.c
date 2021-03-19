@@ -11,7 +11,7 @@ int main()
      i++;
 	   if(i == VV )
      {
-       printf("%s", line);   
+       printf("%s", line);
      }
   }
   fclose(file);

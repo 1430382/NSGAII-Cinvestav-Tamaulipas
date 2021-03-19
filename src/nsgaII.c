@@ -286,7 +286,7 @@ int main(int argc, char **argv) {
   	population *mixed_pop;
   	srand(time(NULL));
   	seed = (double)rand() / (double)RAND_MAX ;
-   	
+
 	if(argc%2==0 || argc<3)
 		{
         fprintf(stderr,"Missing parameter or Misplaced flag\n");
@@ -315,7 +315,7 @@ int main(int argc, char **argv) {
 		if  (strcmp(argv[param],"-Input")==0){
             instName = argv[param+1];
             fileindex=param+1;
-						
+
             if (!(input = fopen(argv[param+1], "r"))) {
 		    	printf("Failed to load file %s\nProgram will now exit\n", argv[param+1]);
 		    	exit(-1);
@@ -582,7 +582,6 @@ int main(int argc, char **argv) {
  		fclose(Tre);
  	}
 	//report_best(parent_pop, stdout);
- 	
  	deallocate_taxa();
  	deallocate_memory_pop(parent_pop,popsize);
  	deallocate_memory_pop(child_pop,popsize);
@@ -599,7 +598,6 @@ int main(int argc, char **argv) {
 	fprintf(stderr,"Time elapsed in seconds: %f\n", elapsed);
 	fprintf(stderr,"Secondary Objective =: %d\n",altobj);
 	//system("/home/asura/Documents/Estadias/VALIDACION/fusion/ExperimentalSetup/src/arboles/execute.sh");
-
  	return(0);
 }
 void deallocate_taxa()
