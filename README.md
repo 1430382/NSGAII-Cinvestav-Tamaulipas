@@ -62,7 +62,7 @@ _General Information_
 ```
 In the sets folder it can found from set one to set four from:
 ```
-* [sets] (http://www.info.univ-angers.fr/~richer/recbio_phylo.php#DATA.)
+* [sets](http://www.info.univ-angers.fr/~richer/recbio_phylo.php#DATA.)
 
 ```
 in the smallinstances folder it can found 30 allign instances such as:
