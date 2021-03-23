@@ -9,7 +9,7 @@ the  simplest  is  usuallythe correct one.
 The principle of parsimony in the sciences is usually a selection of competitive models
  to describe a phenomenon; in biology this is more commonly used as a study of phylogeny.
 Phylogeny is a way of thinking about how organisms are related through time.
-It’s likea family tree, which starts with species that exist today and determines 
+It’s like a family tree, which starts with species that exist today and determines 
 how close are related in their genetic material, if you have two species that share genes, 
 which are expressed as the traits, which can track the genetics through time until you 
 find an ancestor in common. Through this you can create a life map of the phylogenetic, 
@@ -56,7 +56,7 @@ _PhyToFasta folder_
 ```
 PhyToFasta is a Python code that converts format files from phylip to fasta,
 this code is still in construction.
-if you have a lecture problems use execute.sh.
+if you have reading problems use execute.sh.
 ```
 _General Information_
 ```
