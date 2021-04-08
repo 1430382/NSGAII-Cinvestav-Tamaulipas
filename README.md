@@ -83,3 +83,6 @@ If you want to visualize the tree results you can enter in the arboles folder in
 run execute.sh before running the code you need to modify the path of the file arbol.py
 and modify the path inside the file arbol.py
 ```
+## Results 
+_Comparative table to the best in the state of art in 2019
+![tabla(1)](https://user-images.githubusercontent.com/37251039/114096411-4a06d980-9884-11eb-8eaa-ca8862b37d88.png)
